@@ -19,7 +19,7 @@ function App() {
 
 
   // Funcion que se ejecuta en el submit de el formulario.
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault()
     setNameLocation(e.target.idLocation.value)
   }
