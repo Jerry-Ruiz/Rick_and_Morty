@@ -1,0 +1,27 @@
+.pagination {
+  display: inline-block;
+  padding: 10px;
+}
+
+.pagination__position {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.pagination__position.activate {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination__position:hover:not(.active) {
+  background-color: rgb(6, 34, 38);
+}
+
+.paginationGroup {
+  width: 50px;
+  height: 20px;
+}

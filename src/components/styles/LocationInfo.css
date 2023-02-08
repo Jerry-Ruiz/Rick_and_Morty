@@ -1,0 +1,40 @@
+.locationInfo {
+  background-color: rgb(6, 34, 38);
+}
+
+.locationInfo__name {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.locationInfo__list {
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.locationInfo__item span {
+  font-weight: bold;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .locationInfo__name {
+    padding: 10px;
+  }
+
+  .locationInfo__item {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}

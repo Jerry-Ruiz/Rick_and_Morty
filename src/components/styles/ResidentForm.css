@@ -1,0 +1,46 @@
+.residentForm__form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+
+.residentForm__input {
+  width: 180px;
+  height: 25px;
+  padding-left: 10px;
+  font-family: cursive;
+  outline: none;
+  border: solid 2px;
+  border-color: rgb(6, 34, 38);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(5, 41, 46);
+}
+
+.residentForm__input:focus {
+  color: white;
+}
+
+.residentForm__btn {
+  font-family: cursive;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: rgb(6, 34, 38);
+  background-color: rgb(5, 41, 46);
+  border: none;
+  color: gray;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .residentForm__form {
+    top: -50px;
+  }
+
+  .residentForm__input {
+    width: 300px;
+    height: 30px;
+  }
+}
