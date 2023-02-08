@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
+import headerImage from './assets/img/headerImage.jpg';
 import LocationInfo from "./components/LocationInfo";
 import Pagination from "./components/Pagination";
 import ResidentForm from "./components/ResidentForm";
@@ -46,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <img className='residentForm__img' src="/src/assets/HeaderImage.jpg" alt="" />
+      <img src={headerImage} alt="" />
       <ResidentForm handleSubmit={handleSubmit} />
       <LocationInfo location={location} />
       <Pagination location={location} RESIDENTS_PERPAGE={RESIDENTS_PERPAGE} setPage={setPage} />
